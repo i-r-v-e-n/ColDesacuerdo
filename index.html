@@ -1,0 +1,362 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colombia, La Gloria del Desacuerdo</title>
+
+<style>
+
+:root{
+    --paper:#efede7;
+    --ink:#1f1f1f;
+    --line:#8a8a8a;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height:1.95;
+    position:relative;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    opacity:.08;
+    background:
+    radial-gradient(circle at 20% 25%, rgba(0,0,0,.12), transparent 40%),
+    radial-gradient(circle at 80% 75%, rgba(0,0,0,.08), transparent 45%),
+    repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 4px,
+        rgba(0,0,0,.02) 5px
+    );
+}
+
+.container{
+    width:min(900px,90%);
+    margin:auto;
+    padding:80px 0 120px;
+}
+
+.header{
+    margin-bottom:60px;
+}
+
+.title{
+    text-align:center;
+    font-size:2.1rem;
+    font-weight:normal;
+    letter-spacing:.5px;
+    margin-bottom:60px;
+}
+
+.meta p{
+    margin:18px 0;
+    font-size:1rem;
+    font-weight:600;
+}
+
+.divider{
+    margin-top:45px;
+    border:none;
+    border-top:1px solid var(--line);
+}
+
+article{
+    margin-top:50px;
+}
+
+h2{
+    font-weight:normal;
+    font-size:1.55rem;
+    margin-top:75px;
+    margin-bottom:30px;
+    letter-spacing:.3px;
+}
+
+p{
+    text-align:justify;
+    text-indent:45px;
+    margin-bottom:22px;
+}
+
+blockquote{
+    margin:45px 60px;
+    border-left:3px solid #444;
+    padding-left:25px;
+    font-style:italic;
+}
+
+blockquote p{
+    text-indent:0;
+}
+
+.bibliografia{
+    margin-top:90px;
+}
+
+.bibliografia p{
+    text-indent:0;
+    margin-bottom:10px;
+}
+
+.footer{
+    height:100px;
+}
+
+@media(max-width:768px){
+
+    .container{
+        width:92%;
+    }
+
+    p{
+        text-indent:25px;
+    }
+
+    blockquote{
+        margin:35px 10px;
+    }
+
+}
+
+</style>
+
+<style>
+.progress-bar{position:fixed;top:0;left:0;height:4px;background:#222;width:0;z-index:9999}
+.hero{height:45vh;margin:-80px 0 60px;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),linear-gradient(135deg,#222,#555);}
+.hero h1{font-size:3rem;margin:0}
+.widget{margin:50px 0;padding:20px;border:1px solid #999;background:#f6f4ef}
+.timeline{display:flex;gap:10px;flex-wrap:wrap}
+.tbtn{cursor:pointer;padding:10px;border:1px solid #777;background:#ece8df}
+.tpanel{display:none;margin-top:10px;padding:10px;background:white}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.card{border:1px solid #888;padding:15px;background:white}
+.cycle{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.node{padding:10px;border:1px solid #777;background:white}
+.pullquote{font-size:1.35rem;font-style:italic;border-left:4px solid #444;padding-left:20px;margin:40px 0}
+.modebtn{position:fixed;right:20px;bottom:20px;padding:10px 14px}
+.printmode .widget,.printmode .hero{display:none}
+</style>
+</head>
+
+<body>
+
+<div class="progress-bar" id="progress"></div>
+<section class="hero"><div><h1>Colombia, La Gloria del Desacuerdo</h1><p>Del Caguán a la Paz Total</p></div></section>
+<div class="container">
+
+<header class="header">
+
+<h1 class="title">Colombia, La Gloria del Desacuerdo</h1>
+
+<div class="meta">
+<p>Luis Felipe Álvarez Montes</p>
+<p>Constitución Política</p>
+<p>Pontificia Universidad Javeriana</p>
+<p>Mariana Plazas Jácome</p>
+<p>Junio de 2026</p>
+</div>
+
+<hr class="divider">
+
+</header>
+
+<article>
+
+<h2>El país que vuelve a sentarse a la mesa</h2>
+
+<p>
+Hay algo casi ritual en la política colombiana. Cada cierto tiempo aparece un gobierno convencido de que todavía es posible hablar con quienes llevan décadas combatiendo al Estado o disputándole partes enteras del territorio. Entonces reaparece una escena que el país conoce demasiado bien. Se anuncian acercamientos, se conforman delegaciones, se redactan agendas, se prometen transformaciones históricas y la palabra paz vuelve a ocupar titulares, debates televisivos y conversaciones cotidianas. La reacción pública, sin embargo, rara vez es uniforme. Algunos reciben estas iniciativas con esperanza. Otros las observan con resignación. Muchos más lo hacen con una mezcla de cansancio y sospecha. No porque desconozcan los costos de la guerra, sino porque han visto demasiadas veces cómo las promesas de reconciliación terminan chocando contra una realidad mucho más obstinada.
+</p>
+
+<p>
+Por esa razón resulta imposible analizar la Paz Total sin mirar constantemente hacia el Caguán. Ambos procesos nacieron en momentos históricos distintos y bajo gobiernos ideológicamente alejados entre sí, pero comparten una pregunta fundamental. ¿Es posible transformar enemigos armados en interlocutores políticos sin que la negociación sea percibida como una muestra de debilidad estatal? La pregunta parece sencilla, pero ha perseguido durante décadas a cualquier intento de solución negociada en Colombia. Cada proceso de diálogo termina enfrentándose no sólo a quienes empuñan las armas, sino también a la memoria de negociaciones anteriores, a los fracasos acumulados y a una ciudadanía que ha aprendido a desconfiar de las promesas demasiado ambiciosas.
+</p>
+
+<p>
+En ese sentido, tanto el Caguán como la Paz Total son más que simples estrategias gubernamentales. Son momentos en los que el país intenta decidir qué lugar ocupa la violencia dentro de su propia imaginación política. Son experimentos sobre la capacidad de la sociedad colombiana para aceptar que los conflictos pueden tramitarse mediante desacuerdos institucionales y no exclusivamente mediante derrotas militares. Y precisamente por eso ambos procesos terminan revelando algo que va mucho más allá de sus resultados inmediatos.
+</p>
+
+
+<div class="widget">
+<h2>Momentos clave</h2>
+<div class="timeline">
+<div class="tbtn" onclick="tg('t1')">1998</div>
+<div class="tbtn" onclick="tg('t2')">2002</div>
+<div class="tbtn" onclick="tg('t3')">2016</div>
+<div class="tbtn" onclick="tg('t4')">2022</div>
+</div>
+<div id="t1" class="tpanel">Inicio de los diálogos del Caguán.</div>
+<div id="t2" class="tpanel">Ruptura del proceso y giro hacia la Seguridad Democrática.</div>
+<div id="t3" class="tpanel">Acuerdo de La Habana con las FARC.</div>
+<div id="t4" class="tpanel">Comienzo de la Paz Total.</div>
+</div>
+<h2>El laboratorio del Caguán</h2>
+
+<p>
+Con el paso del tiempo, el Caguán dejó de ser un proceso de negociación para convertirse en una referencia emocional. La mayoría de los colombianos no recuerdan los documentos discutidos, las propuestas de reforma o las complejidades diplomáticas que rodearon aquellos años. Lo que permanece son las imágenes. La silla vacía de Marulanda. Las fotografías de comandantes guerrilleros moviéndose libremente dentro de la zona de distensión. Las noticias sobre secuestros, tomas guerrilleras y expansión territorial de las FARC mientras las conversaciones seguían desarrollándose.
+</p>
+
+<p>
+El gobierno de Andrés Pastrana apostó por una idea que, en principio, no resultaba absurda. Si décadas de confrontación armada no habían logrado derrotar a la insurgencia ni resolver las causas profundas del conflicto, parecía razonable intentar una ruta distinta. La creación de la zona desmilitarizada buscaba generar condiciones de confianza para sostener una conversación prolongada. Sin embargo, las negociaciones comenzaron a convivir con una percepción cada vez más extendida de deterioro del orden público. Mientras la mesa permanecía abierta, buena parte de la población observaba cómo continuaban los secuestros, los ataques y las demostraciones de fuerza insurgente.
+</p>
+
+<p>
+La consecuencia fue devastadora para la legitimidad del proceso. La discusión dejó de girar alrededor de los posibles beneficios de una salida negociada y comenzó a centrarse en aquello que el Estado parecía estar cediendo para mantener vivo el diálogo. La negociación empezó a percibirse como un costo antes que como una inversión política. En la memoria colectiva quedó instalada la idea de que el Estado había entregado demasiado y recibido demasiado poco.
+</p>
+
+<blockquote>
+<p>
+La derrota más profunda del Caguán no ocurrió en la mesa de negociación. Ocurrió cuando una parte considerable del país comenzó a asociar la palabra diálogo con la sensación de haber sido engañada.
+</p>
+</blockquote>
+
+<p>
+Ese cambio de percepción tuvo consecuencias duraderas. El fracaso del proceso no sólo cerró una etapa de conversaciones. También abrió el camino para una nueva legitimidad de la fuerza militar. La Seguridad Democrática encontró terreno fértil precisamente porque el Caguán había dejado tras de sí una ciudadanía frustrada. No era únicamente una apuesta por la autoridad estatal. Era también una reacción emocional contra una negociación que muchos percibían como sinónimo de concesión y desgaste.
+</p>
+
+<div class="pullquote">“La derrota más profunda del Caguán no ocurrió en la mesa de negociación.”</div><h2>La paz después de la decepción</h2>
+
+<p>
+Sin embargo, la historia colombiana posee una extraña capacidad para desmentir sus propias certezas. Si el fracaso del Caguán hubiese demostrado definitivamente la inutilidad de las negociaciones, el país jamás habría regresado a la mesa. Pero regresó. Lo hizo en La Habana, volvió a hacerlo con distintos grupos armados y terminó llegando nuevamente a una propuesta tan ambiciosa como la Paz Total. Esto ocurrió por una razón sencilla. La guerra tampoco cumplió todas las promesas que sus defensores depositaron en ella.
+</p>
+
+<p>
+Las ofensivas militares debilitaron organizaciones armadas, recuperaron territorios y modificaron el equilibrio estratégico del conflicto. Sería intelectualmente deshonesto negarlo. Sin embargo, tampoco consiguieron cerrar el ciclo de violencia. Nuevos grupos ocuparon espacios abandonados por otros. Las economías ilegales continuaron financiando estructuras armadas. El narcotráfico siguió actuando como combustible permanente para distintas formas de criminalidad organizada.
+</p>
+
+<p>
+La victoria definitiva nunca llegó. Y cuando una solución fracasa en ofrecer aquello que prometió, la sociedad termina mirando nuevamente hacia alternativas que antes había descartado. Colombia regresó a la negociación no porque hubiera olvidado el Caguán, sino porque también descubrió los límites de la respuesta exclusivamente militar.
+</p>
+
+<h2>La Paz Total y la sombra del pasado</h2>
+
+<p>
+La propuesta de Paz Total presentada por Gustavo Petro partía de un diagnóstico distinto al de finales de los noventa. El conflicto colombiano ya no podía entenderse únicamente a través de una gran organización insurgente. El panorama se había fragmentado. Guerrillas residuales, estructuras criminales, grupos herederos del paramilitarismo y redes vinculadas a economías ilegales convivían en múltiples regiones bajo dinámicas diferentes. La apuesta consistía en reconocer esa complejidad y construir mecanismos de negociación adaptados a ella.
+</p>
+
+<p>
+No obstante, desde el primer momento la iniciativa enfrentó una dificultad que no aparecía en los documentos oficiales. La memoria. Cada avance fue comparado con el Caguán. Cada retroceso fue comparado con el Caguán. Cada episodio de violencia ocurrido durante una negociación fue leído a través de los recuerdos de finales de los noventa. El debate público no observaba únicamente el presente. Observaba también una experiencia que seguía funcionando como referencia para interpretar cualquier nuevo intento de diálogo.
+</p>
+
+<p>
+Aquí emerge una de las similitudes más interesantes entre ambos procesos. Tanto el Caguán como la Paz Total fueron presentados como apuestas de transformación histórica. Ambos aspiraban a modificar la relación entre el Estado y actores armados que durante años habían desafiado su autoridad. Ambos exigían paciencia política. Ambos requerían asumir riesgos. Y ambos terminaron enfrentándose a una ciudadanía que esperaba resultados visibles mientras continuaba observando expresiones de violencia en distintas regiones del país.
+</p>
+
+<p>
+La diferencia principal es que la Paz Total no heredó una hoja en blanco. Heredó una memoria cargada de escepticismo. Mientras Pastrana debía convencer a la sociedad de que negociar era posible, Petro tuvo que convencerla de que aún valía la pena intentarlo.
+</p>
+
+
+<div class="widget">
+<h2>Caguán y Paz Total</h2>
+<div class="compare">
+<div class="card"><strong>Caguán</strong><br>Zona de distensión<br>FARC como actor principal<br>Alta expectativa pública<br>Percepción de cesión estatal</div>
+<div class="card"><strong>Paz Total</strong><br>Múltiples actores armados<br>Negociaciones fragmentadas<br>Herencia del escepticismo<br>Percepción de incertidumbre</div>
+</div>
+</div>
+<h2>La extraña fascinación por la fuerza</h2>
+
+<p>
+Existe una constante histórica que atraviesa buena parte de la experiencia colombiana. Cuando el diálogo decepciona, la fuerza recupera atractivo. No porque la guerra deje de ser brutal ni porque desaparezcan sus costos humanos. La razón es más simple. La fuerza parece producir resultados inmediatos. La negociación trabaja sobre posibilidades futuras. La guerra produce imágenes concretas. La negociación produce expectativas. Y las expectativas son mucho más vulnerables a la frustración.
+</p>
+
+<p>
+Por eso cada proceso fallido termina fortaleciendo una idea que reaparece una y otra vez en distintos sectores políticos. La creencia de que los conflictos sólo terminan cuando alguien es derrotado. Que toda conversación es, en el fondo, una pérdida de tiempo. Que la autoridad se construye exclusivamente mediante capacidad coercitiva. Aunque esta visión simplifica enormemente la complejidad del conflicto colombiano, posee una ventaja evidente. Ofrece respuestas claras en momentos de incertidumbre.
+</p>
+
+<p>
+El problema es que esa lógica también tiene sus propios límites. Colombia lleva décadas oscilando entre momentos de negociación y momentos de ofensiva militar precisamente porque ninguna de las dos estrategias ha conseguido resolver por sí sola las condiciones que alimentan la violencia. El país parece moverse como un péndulo. Cuando fracasa el diálogo, se fortalece la fuerza. Cuando la fuerza resulta insuficiente, reaparece la negociación.
+</p>
+
+
+<div class="widget">
+<h2>El ciclo que persigue al conflicto colombiano</h2>
+<div class="cycle">
+<div class="node">Negociación</div>
+<div class="node">Expectativa</div>
+<div class="node">Frustración</div>
+<div class="node">Demanda de orden</div>
+<div class="node">Respuesta militar</div>
+<div class="node">Nueva negociación</div>
+</div>
+</div>
+<h2>La gloria del desacuerdo</h2>
+
+<p>
+Quizás el problema colombiano nunca haya sido la existencia del desacuerdo. Toda sociedad democrática está hecha de desacuerdos. Lo verdaderamente problemático es la dificultad para aceptar que esos desacuerdos pueden existir sin convertirse en enemistades absolutas. Durante demasiado tiempo la política nacional ha oscilado entre la búsqueda de consensos imposibles y la construcción de enemigos irreconciliables. Se espera que las negociaciones eliminen conflictos históricos y cuando descubren que eso no ocurre, se les acusa de haber fracasado.
+</p>
+
+<p>
+Pero ninguna negociación elimina el conflicto. Lo máximo que puede hacer es modificar la forma en que ese conflicto se expresa. La expectativa de una reconciliación total ha sido, probablemente, una de las cargas más pesadas que han debido soportar los distintos procesos de paz. Se les exige terminar décadas de violencia, resolver desigualdades estructurales, restaurar la confianza institucional y producir estabilidad duradera. Cuando inevitablemente no alcanzan semejante objetivo, la decepción resulta proporcional al tamaño de las expectativas.
+</p>
+
+<p>
+Tal vez por eso Colombia parece vivir atrapada en una relación contradictoria con sus propios intentos de diálogo. Los necesita porque conoce demasiado bien las consecuencias de la guerra. Pero al mismo tiempo desconfía de ellos porque también conoce demasiado bien las consecuencias de las negociaciones fallidas. Entre el Caguán y la Paz Total no existe únicamente una continuidad política. Existe una continuidad emocional. Ambos procesos muestran un país que sigue intentando resolver mediante conversaciones aquello que nunca ha logrado resolver mediante la fuerza.
+</p>
+
+<p>
+Quizás la verdadera pregunta no sea si uno de los procesos fue mejor que el otro, ni siquiera cuál produjo resultados más significativos. La pregunta es por qué, después de tantas décadas de conflicto, seguimos esperando que la paz aparezca como un acontecimiento definitivo y no como una práctica incómoda, lenta y constantemente amenazada por el fracaso. Tal vez allí resida la mayor dificultad colombiana. No en sentar a los actores armados a una mesa. Eso ya se ha hecho varias veces. La dificultad está en construir una sociedad capaz de soportar la incertidumbre que acompaña cualquier negociación sin convertir cada decepción en una nueva razón para volver a imaginar la guerra.
+</p>
+
+</article>
+
+<section class="bibliografia">
+
+<h2>Bibliografía</h2>
+
+<p>Comisión para el Esclarecimiento de la Verdad. <em>Hay futuro si hay verdad</em>.</p>
+
+<p>Centro Nacional de Memoria Histórica. <em>¡Basta Ya! Colombia. Memorias de guerra y dignidad</em>.</p>
+
+<p>Mouffe, Chantal. <em>Agonística. Pensar el mundo políticamente</em>.</p>
+
+<p>Mouffe, Chantal. <em>El retorno de lo político</em>.</p>
+
+<p>Pécaut, Daniel. <em>Guerra contra la sociedad</em>.</p>
+
+<p>Pécaut, Daniel. <em>Orden y violencia</em>.</p>
+
+<p>Girard, René. <em>La violencia y lo sagrado</em>.</p>
+
+<p>Schmitt, Carl. <em>El concepto de lo político</em>.</p>
+
+<p>Sánchez, Gonzalo. <em>Guerras, memoria e historia</em>.</p>
+
+<p>Hobbes, Thomas. <em>Leviatán</em>.</p>
+
+<p>Tilly, Charles. <em>Coerción, capital y los Estados europeos</em>.</p>
+
+</section>
+
+<div class="footer"></div>
+
+</div>
+
+
+<button class="modebtn" onclick="document.body.classList.toggle('printmode')">Modo impresión</button>
+<script>
+function tg(id){let e=document.getElementById(id);e.style.display=e.style.display==='block'?'block':'block';}
+window.addEventListener('scroll',()=>{
+let h=document.documentElement;
+let p=(h.scrollTop/(h.scrollHeight-h.clientHeight))*100;
+document.getElementById('progress').style.width=p+'%';
+});
+</script>
+</body>
+</html>
+```
